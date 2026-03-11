@@ -1,0 +1,39 @@
+# --- MATLAB & Simulink (The Aerospace "Hard Physics" Layer) ---
+*.asv              # Autosave files
+*.slxc             # Simulink cache
+*.mex* # Compiled MEX binaries (system-specific)
+slprj/             # Simulink project generation folders
+work/              # General simulation work directories
+*.log              # Simulation and engine logs
+*.mat              # ONLY if you are blocking large raw data; exclude 'data.mat' if needed
+catdir/            # Catalog directories
+diag/              # Diagnostic reports
+
+# --- Simulink Compilation & Metadata ---
+slprj/             # The "Simulation Project" folder (MUST BE IGNORED) 
+*.slxc             # Simulink Cache files (prevents binary bloat) 
+*.mex* # Compiled MEX files (platform-specific binaries) 
+
+# --- Python  ---
+__pycache__/       # Compiled bytecode
+*.py[cod]
+*$py.class
+.venv/             # Virtual environments 
+env/
+venv/
+.env               # Private environment variables
+
+# --- MacOS/System Junk (Command Deck Noise) ---
+.DS_Store          # macOS metadata
+.AppleDouble
+.LSOverride
+Icon
+Thumbs.db          # Windows legacy artifacts
+ehthumbs.db
+
+# --- Project Specifics ---
+*.pdf              # Blocking since this is for the Readme
+satellite-quarternion-ukf-estimation/.python-version
+nonlinear-6dof-truth-model/01_FixedWing_Nonlinear_Sim/FixedWingSim_SimulinkDiagram.slxc
+nonlinear-6dof-truth-model/02_FixedWing_Linear_Extraction/FixedWing_Linear_Sim.slxc
+nonlinear-6dof-truth-model/02_FixedWing_Linear_Extraction/FixedWing_Nonlinear_Audit.slxc
