@@ -22,8 +22,8 @@ Applied-dynamics-and-controls/
 ├── README.md                          ← You are here
 │
 ├── nonlinear-6dof-truth-model/        ← Completed | MATLAB + Simulink (Treat as Black Box)
-├── satellite-quaternion-ukf/          ← Stable | Python
-├── interplanetary-mission-design/     ← Active | MATLAB -> Python (Migrating)
+├── satellite-quaternion-ukf/          ← Stable    | Python
+├── interplanetary-mission-design/     ← Active    | MATLAB -> Python (Migrating)
 ├── orbital-mechanics-solver/          ← Planned
 └── sysid-python-work/                 ← Planned
 ```
